@@ -17,7 +17,7 @@ const WeatherApp = () => {
             console.log(response.data);
             setWeather(response.data);
         } catch (error) {
-            setError('Error fetching weather data');
+            setError('Enter City Name');
         }
 
         setLoading(false);
