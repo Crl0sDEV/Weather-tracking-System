@@ -56,7 +56,7 @@ const WeatherForm = ({ getWeather }) => {
               onClick={() => handleSelectSuggestion(suggestion)}
               className="cursor-pointer p-2 hover:bg-gray-100"
             >
-              {suggestion.name}, {suggestion.region}, {suggestion.country}
+              {suggestion.name},{suggestion.country}
             </li>
           ))}
         </ul>
